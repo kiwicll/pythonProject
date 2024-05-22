@@ -1,0 +1,9 @@
+creatGroup:
+  path: '/v3/notesvr/set/notegroup'
+  mustKeys:
+    - groupId
+    - groupName  # 修正了拼写错误
+  notMustKeys:
+    - remove
+  bodyBase: {}  # 根据需要填充默认体内容
+  exceptBase: {}  # 根据需要填充例外体内容
